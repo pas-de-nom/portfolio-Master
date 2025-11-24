@@ -28,3 +28,20 @@
         </div>
     </section>
 </template>
+
+<style>
+    /* animation du haut vert le bas de la section  */
+    .skills {
+        animation: slideDown 4s ease-in-out;
+    }
+    @keyframes slideDown {
+        0% {
+            transform: translateY(-60px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+</style>

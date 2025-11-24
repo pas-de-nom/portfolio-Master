@@ -13,6 +13,4 @@
     
 </template>
 
-<style>
-
-</style>
+<!-- creer dans les lien vers les partie de la page  -->
